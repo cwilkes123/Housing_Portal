@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h1>Pay Housing Fee</h1>
+<form action="/pay" method="post" id="payment-form">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="{{ publishable_key }}"
+    data-amount="1000"
+    data-name="Housing Portal"
+    data-description="Housing fee"
+    data-currency="usd"
+    data-locale="auto"
+  ></script>
+</form>
+{% endblock %}

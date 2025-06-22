@@ -1,0 +1,23 @@
+{
+  "name": "housing_portal",
+  "version": "1.0.0",
+  "description": "This will be the housing portal that we will use to manage all of our payments for housing happening.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^7.6.16",
+    "lucide-react": "^0.331.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
